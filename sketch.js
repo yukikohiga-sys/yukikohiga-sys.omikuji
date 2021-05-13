@@ -1,8 +1,8 @@
 let pg;
 let foo = 0;
-let bar = 400;
+let bar = 410;
 let bas = 0;
-let sop = 400;
+let sop = 410;
 
 function setup() {
   createCanvas(400, 400);
@@ -54,7 +54,7 @@ function draw() {
   text("S", 200,sop);
 
   foo = foo + random(-3, 4);
-  bar = bar + random(-3, 2);
+  bar = bar + random(-2, 1);
   bas = bas + random(-4, 5);
   sop = sop + random(1, -2);
 

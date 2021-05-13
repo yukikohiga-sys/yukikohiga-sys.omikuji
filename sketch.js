@@ -13,12 +13,14 @@ function setup() {
 
 function draw() {
 
-  if (bar <=200) {
+  if (bar <=180) {
     noLoop();
   }
-  background(255, 255, 100);
-
-  pg.background(150, 0, 0);
+  // background(255, 255, 100);
+  background(175, 300, 50);
+  
+  
+  pg.background(65, 300, 50);
   // 円形に取り除く
   pg.erase();
   pg.ellipse(pg.width/2, pg.height/2, 80, 80);
@@ -28,16 +30,33 @@ function draw() {
 
   noFill();
   stroke(255);
-  strokeWeight(8);
+  strokeWeight(2);
+ 
   ellipse(foo,200, 45, 45);
+  textAlign(CENTER, CENTER);
+  text("T", foo, 200);
+  textSize(26);
+  
+ 
   ellipse(bar,200,  45, 45);
+  textAlign(CENTER, CENTER);
+  text("A", bar, 200);
+  textSize(26);
+  
   ellipse(200,bas,  45, 45);
+  textAlign(CENTER, CENTER);
+  textSize(26);
+  text("B", 200,bas);
+ 
   ellipse(200,sop,  45, 45);
+  textSize(26);
+  textAlign(CENTER, CENTER);
+  text("S", 200,sop);
 
-  foo = foo + random(-2, 3);
-  bar = bar +random(-3, 2);
-  bas = bas +random(3, -2);
-  sop = sop +random(1, -2);
+  foo = foo + random(-3, 4);
+  bar = bar + random(-3, 2);
+  bas = bas + random(-4, 5);
+  sop = sop + random(1, -2);
 
   image(pg, 100, 100);
 }

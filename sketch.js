@@ -4,6 +4,7 @@ let bar = 410;
 let bas = 0;
 let sop = 410;
 
+
 function setup() {
   createCanvas(400, 400);
   pg = createGraphics(200,200);
@@ -14,9 +15,12 @@ function setup() {
 function draw() {
 
   if (bar <=180) {
-    noLoop();
+   noLoop();
+    // console.log("アルトが練習に来ました");
+    
+
   }
-  // background(255, 255, 100);
+  
   background(175, 300, 50);
   
   
@@ -60,3 +64,4 @@ function draw() {
 
   image(pg, 100, 100);
 }
+

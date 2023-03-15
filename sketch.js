@@ -39,13 +39,13 @@ function draw() {
   ellipse(foo,200, 45, 45);
   textAlign(CENTER, CENTER);
   text("sub", foo, 200);
-  textSize(24);
+  textSize(22);
   
  
   ellipse(bar,200,  45, 45);
   textAlign(CENTER, CENTER);
   text("dom", bar, 200);
-  textSize(24);
+  textSize(22);
   
   ellipse(200,bas,  45, 45);
   textAlign(CENTER, CENTER);

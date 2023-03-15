@@ -44,7 +44,7 @@ function draw() {
  
   ellipse(bar,200,  45, 45);
   textAlign(CENTER, CENTER);
-  text("A", bar, 200);
+  text("M", bar, 200);
   textSize(26);
   
   ellipse(200,bas,  45, 45);

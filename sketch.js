@@ -38,24 +38,24 @@ function draw() {
  
   ellipse(foo,200, 45, 45);
   textAlign(CENTER, CENTER);
-  text("T", foo, 200);
+  text("sub", foo, 200);
   textSize(26);
   
  
   ellipse(bar,200,  45, 45);
   textAlign(CENTER, CENTER);
-  text("M", bar, 200);
+  text("dom", bar, 200);
   textSize(26);
   
   ellipse(200,bas,  45, 45);
   textAlign(CENTER, CENTER);
   textSize(26);
-  text("B", 200,bas);
+  text("S", 200,bas);
  
   ellipse(200,sop,  45, 45);
   textSize(26);
   textAlign(CENTER, CENTER);
-  text("S", 200,sop);
+  text("M", 200,sop);
 
   foo = foo + random(-3, 4);
   bar = bar + random(-2, 1);
